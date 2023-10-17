@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+  }
+
+  body {
+    background-color: #edf2c5;
+    max-width: 1440px;
+    max-height: 1024px;
+    margin: auto;
+  }
+  .page {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  header {
+    width: 100%;
+    height: 62px;
+    margin: 36px auto 8px;
+    display: flex;
+    align-items: center;
+  }
+  header .logo {
+    color: #778a50;
+    font-size: 44px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  header .headergroup {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  header .headerroup .headerimgBox {
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    margin-right: 12px;
+  }
+  header .headergroup .headerimg {
+    width: 100%;
+    border-radius: 3px;
+  }
+  header .headergroup .line {
+    border: 1px solid #778a50;
+    height: 24px;
+    margin-right: 12px;
+  }
+  header .headergroup .headertext {
+    color: #778a50;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    text-decoration: none;
+    line-height: normal;
+  }
+  .headertext:nth-last-child(1) {
+    margin-left: 14px;
+  }
+  nav {
+    background-color: #778a50;
+    border-radius: 3px;
+  }
+  nav a {
+    color: #edf2c5;
+    margin: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  main {
+    margin-top: 16px;
+  }
+  main .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 32px;
+  }
+
+  .box  {
+    background-color: #778a50;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    color: #edf2c5;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  main div .vegetables {
+    width: 528px;
+  }
+  .pumpkin {
+    width: 100%;
+  }
+  .vegetables .veg-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .vegetables .veg-container img {
+    width: 166px;
+  }
+  main div .contact {
+    width: 528px;
+  }
+  .contact .contact-text {
+    background-color: #f7fbda;
+    height: 112px;
+    padding: 16px;
+  }
+  .contact .contact-text p {
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .contact .contact-text p:nth-child(1) {
+    border-bottom: #7d7d7d solid 1px;
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+  }
+  footer {
+    background-color: #778a50;
+    max-width: 1440px;
+    height: 60px;
+    margin-top: 123px;
+    border-radius: 3px;
+  }
+  footer p {
+    color: #edf2c5;
+    font-size: 12px;
+    line-height: 60px;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+  }
